@@ -15,6 +15,7 @@
   Understood how I could use tKinter with grid method and decided to base on the Currency     Converter code and CalcGUI to build my app
   
   Build a function that converts ['miles','yard','feet','inches'] to ['km','m','cm','mm'] and ['km','m','cm','mm'] to ['miles','yard','feet','inches'].
+ ## Sprint 2:
   
   Create GUI using tKinter
   
