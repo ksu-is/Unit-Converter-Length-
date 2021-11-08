@@ -14,4 +14,12 @@
 
   Understood how I could use tKinter with grid method and decided to base on the Currency     Converter code and CalcGUI to build my app
   
-  Build a function that converts ['miles','yard','feet','inches'] to ['km','m','cm','mm']
+  Build a function that converts ['miles','yard','feet','inches'] to ['km','m','cm','mm'] and ['km','m','cm','mm'] to ['miles','yard','feet','inches'].
+  
+  Create GUI using tKinter
+  
+  Create a label and entry box on GUI
+  
+  Create a Unit Converter and Clear buttons and connect the functions
+  
+  Review Final Codes and see if there is anything that I can improve
