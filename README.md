@@ -11,3 +11,4 @@ Source:
 1)	Currency-Converter: https://github.com/ksu-is/Currency-Converter
 2)	Unit Converter: 
 https://codingshiksha.com/python/python-3-tkinter-script-to-build-advanced-base-unit-converter-weight-distance-length-volume-temperature-area-height-gui-desktop-app-full-project-for-beginners/
+3) CalGuI: https://github.com/ksu-is/CalcGUI-2.0.git
