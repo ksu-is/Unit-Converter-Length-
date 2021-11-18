@@ -15,9 +15,9 @@ root['bg'] = 'gray'
 
 def ok(): 
     try:
-        inp = float(inputentry.get())
+        inp = float(inputentry.get()) #Float number is available
     except:
-        tkinter.messagebox.showerror("Error","Please enter interger only!") #Error message will pop up
+        tkinter.messagebox.showerror("Error","Please enter interger only!") #If something that isn't Interger is input in input box, Error message will pop up
     
     inp_unit = inputopt.get()
     out_unit = outputopt.get()
@@ -42,7 +42,7 @@ outputopt = StringVar()
 outputopt.set(OPTIONS[0])
 
 
-inputlabel = Label(root, text = "Input\n(Interger Only!)")
+inputlabel = Label(root, text = "Input\n(Interger Only!)") #Let you know, only Interger shoulb be input
 inputlabel.grid(row = 0, column = 0, pady = 20)
 
 inputentry = Entry(root, justify = "center")
