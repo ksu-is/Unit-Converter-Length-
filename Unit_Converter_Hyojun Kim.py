@@ -13,11 +13,11 @@ root.geometry("500x300")
 root.title("Unit Converter_Hyojun Kim")
 root['bg'] = 'gray'
 
-def ok():
+def ok(): 
     try:
         inp = float(inputentry.get())
     except:
-        tkinter.messagebox.showerror("Error","Please enter interger only!")
+        tkinter.messagebox.showerror("Error","Please enter interger only!") #Error message will pop up
     
     inp_unit = inputopt.get()
     out_unit = outputopt.get()
