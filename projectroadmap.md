@@ -17,7 +17,7 @@
   Build a function that converts ['miles','yard','feet','inches'] to ['km','m','cm','mm'] and ['km','m','cm','mm'] to ['miles','yard','feet','inches'].
  ## Sprint 2:
   
-  Create GUI using tKinter
+  Create GUI using tKinter with Visual Studio Code program
   
   Create a label and entry box on GUI
   
