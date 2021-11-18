@@ -1,28 +1,11 @@
 from tkinter import *
 import tkinter.messagebox
 
-unit_dict = {
-    "cm" : 0.01,
-    "m" : 1.0,
-    "km": 1000.0,
-    "feet": 0.3048,
-    "miles": 1609.344,
-    "inches": 0.0254,
-    "yard": 0.9144,
-    "mm": 0.001
-}
+unit_dict = {"cm" : 0.01, "m" : 1.0, "km": 1000.0, "feet": 0.3048, "miles": 1609.344, "inches": 0.0254, "yard": 0.9144, "mm": 0.001}
 
-lengths = ["cm", "m", "km", "feet", "miles", "inches","yard","mm"]
+lengths = ["km", "m", "cm", "mm", "miles", "yard", "feet", "inches"]
 
-OPTIONS = ["select units",
-            "km",
-            "m",
-            "cm",
-            "mm",
-            "miles",
-            "yard",
-            "feet",
-            "inches"]
+OPTIONS = ["select units", "km", "m", "cm", "mm", "miles", "yard", "feet", "inches"]
 
 
 root = Tk()
@@ -59,7 +42,7 @@ outputopt = StringVar()
 outputopt.set(OPTIONS[0])
 
 
-inputlabel = Label(root, text = "Input\n(Number Only!)")
+inputlabel = Label(root, text = "Input\n(Interger Only!)")
 inputlabel.grid(row = 0, column = 0, pady = 20)
 
 inputentry = Entry(root, justify = "center")
