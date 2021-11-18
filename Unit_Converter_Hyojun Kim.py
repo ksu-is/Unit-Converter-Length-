@@ -7,12 +7,13 @@ lengths = ["km", "m", "cm", "mm", "miles", "yard", "feet", "inches"]
 
 OPTIONS = ["select units", "km", "m", "cm", "mm", "miles", "yard", "feet", "inches"]
 
-
+#Use the root function to make a outline
 root = Tk()
 root.geometry("500x300")
 root.title("Unit Converter_Hyojun Kim")
 root['bg'] = 'gray'
 
+#Use the def function to make a code works well
 def ok(): 
     try:
         inp = float(inputentry.get()) #Float number is available
@@ -41,7 +42,7 @@ inputopt.set(OPTIONS[0])
 outputopt = StringVar()
 outputopt.set(OPTIONS[0])
 
-
+#Create the label
 inputlabel = Label(root, text = "Input\n(Interger Only!)") #Let you know, only Interger shoulb be input
 inputlabel.grid(row = 0, column = 0, pady = 20)
 
